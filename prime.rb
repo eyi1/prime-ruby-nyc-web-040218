@@ -1,9 +1,8 @@
 def prime? (n)
 
-  if n<2 || n%2 != 0
-    return true
-  else
-    return false
-  end 
+if n % n == 0 && n % 1 == 0 
+  return true 
+else
+  return false
 end
 # Add  code here!
