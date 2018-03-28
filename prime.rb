@@ -1,5 +1,9 @@
 def prime? (integer)
-test_divisors = (2..(integer -1)).to_a
-(test_divisors.any? {|divisor| integer % divisor == 0} || integer == 0 || integer == 1) ? false : true
+return false if n < 2
+  if (2...n-1).any? {|i| n % i == 0}
+    false
+  else
+    true
+  end
 end
 # Add  code here!
