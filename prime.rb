@@ -4,6 +4,6 @@ def prime? (n)
     return true
   else
     return false
-
+  end 
 end
 # Add  code here!
