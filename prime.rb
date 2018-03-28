@@ -1,6 +1,6 @@
 def prime? (n)
   return false if n < 2 
-     if (2...n-1).any?{|i| n % i == 0}
+     if n.any?{|i| n % i == 0}
        false
      else
        true
